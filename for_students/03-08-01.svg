@@ -1,0 +1,38 @@
+<!-- here is a big, empty SVG! make it into something interesting! -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="600px" width="600px">
+    <g id="bear">
+        <g id="ears">
+            <circle cx="35" cy="35" r="30" stroke="black" fill="black">
+            </circle>
+            <circle cx="165" cy="35" r="30" stroke="black" fill="black">
+            </circle>
+            <circle cx="35" cy="35" r="15" fill="goldenrod">
+            </circle>
+            <circle cx="165" cy="35" r="15" fill="goldenrod">
+            </circle>
+        </g>
+        <circle cx="100" cy="100" r="80" fill="yellow">
+        </circle>
+        <circle cx="65" cy="70" r="10" stroke="black" fill="black">
+        </circle>
+        <circle cx="135" cy="70" r="10" stroke="black" fill="black">
+        </circle>
+        
+    </g>
+
+    <g id="snout">
+        <circle cx="100" cy="130" r="40" fill="goldenrod">
+        </circle>
+        <circle cx="100" cy="110" r="10" stroke="black" fill="black">
+        </circle>
+    </g>
+
+    <use transform="translate(0, 600) rotate(-90)" xlink:href="#bear"/>
+    <use transform="translate(0, 600) rotate(-90)" xlink:href="#snout"/>
+    <use transform="translate(600, 600) rotate(-180)" xlink:href="#bear"/>
+    <use transform="translate(600, 600) rotate(-180)" xlink:href="#snout"/>
+    <use transform="translate(600, 0) rotate(90)" xlink:href="#bear"/>
+    <use transform="translate(600, 0) rotate(90)" xlink:href="#snout"/>
+    
+</svg>
+
